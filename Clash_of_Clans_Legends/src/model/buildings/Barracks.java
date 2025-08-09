@@ -7,7 +7,7 @@ public class Barracks extends Building {
 			super (400);			
 		}
 
-		public boolean isCanRecruit() {
+		public boolean isCanRecruit() { //Change to canRecruit? 
 			return canRecruit;
 		}
 
