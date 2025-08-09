@@ -9,15 +9,15 @@ public abstract class Unit {
 	private int currentHp;
 	private int maxActions;
 	private int range;
-	private int  actionsAvailable;
+	private int actionsAvailable;
 	private Cell target;
 	
 		public Unit(int maxHp, int maxActions, int range) {
 			this.maxHp = maxHp;
-	        this.currentHp = maxHp;
+	    	this.currentHp = maxHp;
 	        this.maxActions = maxActions;
 	        this.actionsAvailable = maxActions;
-	        this.range = range;
+	    	this.range = range;
 		}
 
 		public Point getLocation() {
