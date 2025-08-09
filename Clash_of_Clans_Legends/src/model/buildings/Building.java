@@ -1,4 +1,4 @@
- package model.buildings;
+package model.buildings;
 
 public abstract class Building {
 	private int maxHp;
